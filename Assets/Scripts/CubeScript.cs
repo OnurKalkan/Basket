@@ -15,4 +15,14 @@ public class CubeScript : MonoBehaviour
     {
         
     }
+
+    public void CubeHover()
+    {
+        GetComponent<Renderer>().material.color = Color.red;
+    }
+
+    public void CubeHoverExit()
+    {
+        GetComponent<Renderer>().material.color = Color.white;
+    }
 }
